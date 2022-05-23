@@ -22,7 +22,7 @@ body {
     padding: 20px;
     text-align: center;
 }
-button {
+#change-btn {
     padding: 1rem 3rem;
     margin: 1rem 0;
     outline: none;
@@ -34,7 +34,7 @@ button {
     letter-spacing: 1px;
     cursor: pointer;
 }
-button:hover {
+#change-btn:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
@@ -50,4 +50,14 @@ h1 {
     border: 0;
     font-size: 18px;
     color: #fff;
+}
+#copy-btn {
+    width: 70px;
+    height: 37px;
+    margin-left: 0px;
+    border-radius: 0px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #f1f2f6;
 }
